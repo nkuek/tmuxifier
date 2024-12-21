@@ -11,9 +11,9 @@ if initialize_session "fem"; then
   new_window "editor"
   new_window "server"
   new_window "console"
-  select_window 1
+  select_window 2
   run_cmd "yarn dev"
-  select_window 0
+  select_window 1
   run_cmd "nvim"
 
   # Load a defined window layout.
