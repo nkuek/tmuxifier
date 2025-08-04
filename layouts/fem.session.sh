@@ -12,7 +12,7 @@ if initialize_session "fem"; then
   new_window "server"
   new_window "console"
   select_window 2
-  run_cmd "yarn dev"
+  run_cmd "yarn dev:turbo"
   select_window 1
   run_cmd "nvim"
 
